@@ -16,7 +16,7 @@ trait HasModelRestrictions
      *   
      * @param \Illuminate\Database\Eloquent\Model $model
      * @param string|null $task
-     * @param \App\Model|null $user
+     * @param \Illuminate\Database\Eloquent\Model|null $user
      * @throws \Illuminate\Auth\Access\AuthorizationException
      */
     public function authorizeUserToPerformTaskOn(Model $model, $task = null, $user = null)
